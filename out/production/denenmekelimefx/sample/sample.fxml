@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.control.ProgressBar?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.shape.Polygon?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane id="root" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="750.0" prefWidth="1200.0" style="-fx-background-color: vhite;" stylesheets="@still.css" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Pane layoutX="271.0" layoutY="157.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" onKeyReleased="#onKeyPressedActionForPane" prefHeight="1195.0" prefWidth="0.0" style="-fx-background-color: white; -fx-background-radius: 50;" AnchorPane.bottomAnchor="50.0" AnchorPane.leftAnchor="30.0" AnchorPane.rightAnchor="30.0" AnchorPane.topAnchor="50.0">
+         <children>
+            <Polygon fill="#ff6600" layoutX="390.0" layoutY="340.0" points="-58.78741455078125, 23.031890869140625, -4.8874969482421875, 23.031890869140625, 17.715682983398438, -23.043838500976562, -4.8874969482421875, -66.0, -65.0, -66.0, -83.12931823730469, -16.958358764648438" stroke="BLACK" strokeType="INSIDE" />
+            <Polygon fill="BLUE" layoutX="494.0" layoutY="394.0" points="-58.78741455078125, 23.031890869140625, -4.8874969482421875, 23.031890869140625, 17.715682983398438, -23.043838500976562, -4.8874969482421875, -66.0, -65.0, -66.0, -83.12931823730469, -16.958358764648438" stroke="BLACK" />
+            <Polygon fill="#ff6600" layoutX="389.0" layoutY="447.0" points="-58.78741455078125, 23.031890869140625, -4.8874969482421875, 23.031890869140625, 17.715682983398438, -23.043838500976562, -4.8874969482421875, -66.0, -65.0, -66.0, -83.12931823730469, -16.958358764648438" stroke="BLACK" strokeType="INSIDE" />
+            <Polygon fill="#ff6600" layoutX="601.0" layoutY="447.0" points="-58.78741455078125, 23.031890869140625, -4.8874969482421875, 23.031890869140625, 17.715682983398438, -23.043838500976562, -4.8874969482421875, -66.0, -65.0, -66.0, -83.12931823730469, -16.958358764648438" stroke="BLACK" strokeType="INSIDE" />
+            <Polygon fill="#ff6600" layoutX="491.0" layoutY="288.0" points="-58.78741455078125, 23.031890869140625, -4.8874969482421875, 23.031890869140625, 17.715682983398438, -23.043838500976562, -4.8874969482421875, -66.0, -65.0, -66.0, -83.12931823730469, -16.958358764648438" stroke="BLACK" strokeType="INSIDE" />
+            <Polygon fill="#ff6600" layoutX="602.0" layoutY="332.0" points="-58.78741455078125, 23.031890869140625, -4.8874969482421875, 23.031890869140625, 17.715682983398438, -23.043838500976562, -4.8874969482421875, -66.0, -65.0, -66.0, -83.12931823730469, -16.958358764648438" stroke="BLACK" strokeType="INSIDE" />
+            <Polygon fill="#ff6600" layoutX="493.0" layoutY="502.0" points="-58.78741455078125, 23.031890869140625, -4.8874969482421875, 23.031890869140625, 17.715682983398438, -23.043838500976562, -4.8874969482421875, -66.0, -65.0, -66.0, -83.12931823730469, -16.958358764648438" stroke="BLACK" strokeType="INSIDE" />
+            <Button fx:id="button1" layoutX="432.0" layoutY="223.0" mnemonicParsing="false" onAction="#buttonAction" prefHeight="87.0" prefWidth="50.0" style="-fx-background-color: ff6600;" text="-">
+               <font>
+                  <Font name="Microsoft Sans Serif" size="24.0" />
+               </font>
+            </Button>
+            <Button fx:id="ortadakiButton" alignment="CENTER" layoutX="432.0" layoutY="330.0" mnemonicParsing="false" onAction="#ortaButtonAction" opacity="0.55" prefHeight="85.0" prefWidth="58.0" style="-fx-background-color: BLUE;" text="-" underline="true">
+               <font>
+                  <Font size="24.0" />
+               </font>
+            </Button>
+            <Button fx:id="button4" layoutX="434.0" layoutY="438.0" mnemonicParsing="false" onAction="#buttonAction" prefHeight="84.0" prefWidth="54.0" style="-fx-background-color: ff6600;" text="-">
+               <font>
+                  <Font size="24.0" />
+               </font>
+            </Button>
+            <Button fx:id="button3" layoutX="541.0" layoutY="384.0" mnemonicParsing="false" onAction="#buttonAction" prefHeight="82.0" prefWidth="54.0" style="-fx-background-color: ff6600;" text="-">
+               <font>
+                  <Font name="Microsoft Sans Serif" size="24.0" />
+               </font>
+            </Button>
+            <Button fx:id="button2" layoutX="545.0" layoutY="267.0" mnemonicParsing="false" onAction="#buttonAction" prefHeight="86.0" prefWidth="29.0" style="-fx-background-color: ff6600;" text="-">
+               <font>
+                  <Font name="Microsoft Sans Serif" size="22.0" />
+               </font>
+            </Button>
+            <Button fx:id="button5" layoutX="330.0" layoutY="384.0" mnemonicParsing="false" onAction="#buttonAction" prefHeight="83.0" prefWidth="54.0" style="-fx-background-color: ff6600;" text="-">
+               <font>
+                  <Font size="24.0" />
+               </font>
+            </Button>
+            <Button fx:id="button6" layoutX="330.0" layoutY="275.0" mnemonicParsing="false" onAction="#buttonAction" prefHeight="87.0" prefWidth="54.0" style="-fx-background-color: ff6600;" text="-">
+               <font>
+                  <Font size="24.0" />
+               </font>
+            </Button>
+            <TextArea fx:id="textField" disable="true" editable="false" layoutX="310.0" layoutY="114.0" prefHeight="52.0" prefWidth="317.0" style="-fx-background-color: ccc;" />
+            <Button fx:id="deleteButton" layoutX="330.0" layoutY="571.0" mnemonicParsing="false" onAction="#deleteAction" prefHeight="43.0" prefWidth="86.0" style="-fx-background-radius: 20; -fx-background-color: ff6600;" text="Delete">
+               <font>
+                  <Font name="Microsoft Sans Serif" size="15.0" />
+               </font></Button>
+            <Button fx:id="changeButton" layoutX="443.0" layoutY="571.0" mnemonicParsing="false" onAction="#changeAction" prefHeight="43.0" prefWidth="92.0" style="-fx-background-color: ff6600; -fx-background-radius: 20;" text="Change">
+               <font>
+                  <Font name="Microsoft Sans Serif" size="15.0" />
+               </font></Button>
+            <Button fx:id="enterButton" layoutX="569.0" layoutY="571.0" mnemonicParsing="false" onAction="#enterAction" prefHeight="43.0" prefWidth="74.0" style="-fx-background-color: ff6600; -fx-background-radius: 20;" text="Enter">
+               <font>
+                  <Font name="Microsoft Sans Serif" size="15.0" />
+               </font></Button>
+            <ProgressBar fx:id="progressBar" layoutX="719.0" layoutY="100.0" prefHeight="40.0" prefWidth="188.0" progress="0.0" style="-fx-background-color: WHİTE;" />
+            <Text fill="#ff6600" layoutX="171.0" layoutY="74.0" strokeType="OUTSIDE" strokeWidth="0.0" text="KELİME OYUNUNA HOŞGELDİNİZ" wrappingWidth="694.0894775390625">
+               <font>
+                  <Font name="Microsoft Sans Serif" size="36.0" />
+               </font>
+            </Text>
+            <TextField fx:id="anaHarfler" focusTraversable="false" layoutX="23.0" layoutY="307.0" onKeyPressed="#ayniHarfCheck" onKeyReleased="#AnaHarfler" prefHeight="80.0" prefWidth="276.0" promptText="7 TANE HARF GİRİNİZ">
+               <font>
+                  <Font size="24.0" />
+               </font>
+            </TextField>
+            <Button fx:id="başla" layoutX="126.0" layoutY="413.0" mnemonicParsing="false" onKeyPressed="#basla" prefHeight="40.0" prefWidth="124.0" style="-fx-background-color: ff6600; -fx-background-radius: 20;" text="OYUNA BAŞLA">
+               <font>
+                  <Font name="Microsoft Sans Serif" size="13.0" />
+               </font></Button>
+            <ListView fx:id="listView" layoutX="719.0" layoutY="225.0" prefHeight="200.0" prefWidth="200.0" />
+         </children>
+         <cursor>
+            <Cursor fx:constant="OPEN_HAND" />
+         </cursor>
+         <effect>
+            <DropShadow />
+         </effect>
+      </Pane>
+   </children>
+</AnchorPane>
